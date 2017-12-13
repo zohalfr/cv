@@ -1,0 +1,218 @@
+
+#pricipale{
+/*    background-color: #80340C;*/
+ background-color: #4F778F;
+/*background-color: #304F6D;*/
+}
+
+.box{
+  
+    width: 50%;
+  
+    background-color: #4F778F;
+    background-size: auto;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    color: gold;
+    font-family: 'Century Gothic', sans-serif;
+    border: 3px  #ffcc00 ridge;
+}
+.box-img{
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+}
+.image{
+    border-radius: 50%;
+}
+.card-title{
+    color: gold;
+    text-shadow: 6px 6px 6px gold;
+}
+
+ul{
+    padding: 5%;
+    text-align: justify;
+
+}
+.box li{
+    display: inline-block;
+    list-style: none;
+    text-align: justify;
+
+}
+.box li a {
+    color: white;
+    text-decoration: none;
+    transition:all ease-in-out 250ms;
+    text-align: justify;
+}
+.box-img{
+    margin: 10px;
+
+}
+/*#title1 {
+    font-size: 120%;
+
+}*/
+
+
+
+h1{
+
+    color: gold;
+    color: #ffcc00;
+    text-align: center;
+    text-shadow: 6px 6px 6px black;
+    margin: auto;
+    border-radius: 15px;/*arrondire border*/
+
+}
+
+h2{
+    color: gold;
+    border-radius: 15px;  /*arrondire border*/
+    box-shadow: 6px 6px 10px #ffcc00; /*mettre ombrage au texte h1*/
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    width: 100%;
+
+
+}
+
+h3{
+    color: gold;
+    margin: 10px;
+    padding: 5%;
+}
+img{
+    border-radius: 20%;
+    margin: 10px;
+}
+section{
+        border-radius: 15px;/*arrondire border*/
+        box-shadow: 6px 6px 10px /*#ffcc00mettre ombrage au texte h1*/
+        text-align: center;
+        font-size: small;
+
+
+
+}
+
+ol{
+    color: gold;
+    margin: 10px;
+    padding: 5%;
+    text-align: justify;
+
+
+}
+
+em{
+
+    text-shadow: 6px 6px 6px black;
+
+}
+.competence{
+
+    padding: 2%;
+    border:3px gold ridge;
+    text-align: center;
+    font-style: italic;
+    /*box-shadow : 6px 6px 10px #ffcc00;  mettre ombrage au texte h1*/
+    font-weight: gold;
+    color: gold;
+
+}
+.etude{
+
+    padding: 2%;
+    border:3px gold ridge;
+    font-style: italic;
+    box-shadow : 6px 6px 10px #ffcc00;  /*mettre ombrage au texte h1*/
+    color : gold;
+    font-weight: gold;
+
+}
+.ex{
+    text-align: center;
+    padding: 2%;
+    border:3px gold ridge;
+    font-style: italic;
+    box-shadow : 6px 6px 10px #ffcc00;  /*mettre ombrage au texte h1*/
+    color : gold;
+
+}
+.lg{
+
+    padding: 2%;
+    border:3px gold ridge;
+    font-style: italic;
+    box-shadow : 6px 6px 10px #ffcc00;  /*mettre ombrage au texte h1*/
+    color : gold;
+}
+.l{
+  
+    padding: 2%;
+    border:3px gold ridge;
+    font-style: italic;
+    box-shadow : 6px 6px 10px #ffcc00;  /*mettre ombrage au texte h1*/
+    color : gold;
+
+}
+
+#footer{
+    margin: auto;
+    text-align: center;
+    width: 100%;
+
+}
+ol2{
+    color: gold;
+    margin: 5px;;
+    text-align: justify;
+    display: inline-block;
+    font-size: medium;
+
+}
+
+
+progress{
+
+    border-radius: 10%;
+    background-color: black;
+    border-style: solid;   /* Style de la bordure /
+   
+  }
+
+
+  /sous chrome, le contenant de la barre de progression : /
+  progress::-webkit-progress-bar {
+      background-color: transparent;
+
+  }
+  /sous chrome, la barre de progression/
+  progress::-webkit-progress-value{
+    background-color: #ee495d;
+  }
+
+  /sous mozilla, c'est la barre de progression/
+  progress::-moz-progress-bar {
+      background: #ee495d ;
+  }
+
+  / le contenant de la barre de progression : /
+  progress::-ms-progress-bar {
+    background-color: #ee495d;
+  }
+  /la barre de progression/
+  progress::-ms-progress-value{
+    background-color:#ee495d;
+  }
+  /**/
+    progress::-ms-progress-value{
+        background-color: gold;
+    }
+}
